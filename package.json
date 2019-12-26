@@ -4,8 +4,9 @@
   "description": "React app study project",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
-    "lint" : "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +22,11 @@
   "devDependencies": {
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.8.0",
+    "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1"
+  },
+  "dependencies": {
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
