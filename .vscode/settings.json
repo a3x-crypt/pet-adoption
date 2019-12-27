@@ -1,4 +1,7 @@
 {
-    "editor.formatOnSave": true,
-    "prettier.requireConfig": true
+  "editor.formatOnSave": true,
+  "prettier.requireConfig": true,
+  "files.associations": {
+    "*.js": "javascriptreact"
+  }
 }

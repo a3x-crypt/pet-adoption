@@ -20,8 +20,12 @@
   },
   "homepage": "https://github.com/Newbie-Dump/pet-adoption#readme",
   "devDependencies": {
+    "babel-eslint": "^10.0.3",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.8.0",
+    "eslint-plugin-import": "^2.19.1",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
     "parcel-bundler": "^1.12.4",
     "prettier": "^1.19.1"
   },
