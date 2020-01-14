@@ -37,6 +37,8 @@
     "prettier": "^1.19.1"
   },
   "dependencies": {
+    "@emotion/babel-preset-css-prop": "^10.0.27",
+    "@emotion/core": "^10.0.27",
     "@frontendmasters/pet": "^1.0.3",
     "@reach/router": "^1.2.1",
     "react": "^16.12.0",
